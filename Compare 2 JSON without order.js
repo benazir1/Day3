@@ -1,7 +1,7 @@
  compare two JSON have the same properties without order
 
-var obj1 = {"name":"Sam","class":"MCA"};
-var obj2 = {"class":"MCA","name":"Sam1"};
+var obj1 = {"name":"person1","age":5};
+var obj2 = {"age":5,"name":"person1"};
 
 var flag=true;
 
